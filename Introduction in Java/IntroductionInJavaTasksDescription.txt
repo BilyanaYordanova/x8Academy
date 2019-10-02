@@ -1,0 +1,115 @@
+test the limits of primitive types - add one to the Max number of a type and check result
+
+
+odd number?
+boolean isOdd(int n)
+
+
+prime number?
+boolean isPrime(int N)
+
+
+min element inside an array?
+int min(int... array)
+
+
+k-th min element inside an array?
+int kthMin(int k, int[] array)
+
+
+find a number, that occurs odd times in an array
+int getOddOccurrence(int... array)
+
+
+average of elements inside that array?
+int getAverage(int[] array);
+
+
+raise an integer to a power of another (Write a O(log(b)) solution)
+long pow(int a, int b)
+
+
+smallest multiple of a number - a number that can be divided by each of the numbers from one to a given N
+long getSmallestMultiple(int N);
+
+
+double factorial?
+long doubleFac(int n);
+if n=3, => (3!)! = 6! = 720
+
+
+maximal scalar product - by two vectors given a and b, return their scalar product (as a bonus, find a permutation of a and b where their scalar product is max)
+long maximalScalarSum(int[] a, int[] b)
+
+
+max span - return the max number of elements (span) between a element from the left and from the right side of an array that is equal. A single number has a span of 1.
+int maxSpan(int[] numbers)
+maxSpan(2, 5, 4, 1, 3, 4) → 4
+maxSpan(8, 12, 7, 1, 7, 2, 12) → 6
+maxSpan(3, 6, 6, 8, 4, 3, 6) → 6
+
+
+equal sum sides - return true if there is an element in the array, that you can remove and those from the left and right have the same sum
+boolean equalSumSides(int[] numbers)
+equalSumSides(3, 0, -1, 2, 1) → true
+equalSumSides(2, 1, 2, 3, 1, 4) → true
+equalSumSides(8, 8) → false
+
+
+reverse a String
+String reverse(String argument)
+
+
+reverse each word in a String
+String reverseEveryWord(String arg)
+reverseEveryWord("What is this") => tahW si siht
+
+
+palindrome?
+boolean isPalindrome(String argument)
+
+
+number a palindrome?
+boolean isPalindrome(int argument)
+
+
+the largest palindrome number up to N - largest number < N that is a palindrom
+long getLargestPalindrome(long N);
+
+
+copy character k-times
+String copyChars(String input, int k)
+copyChars("nbsp;", 3) => "nbsp;nbsp;nbsp;"
+
+
+return number of (non-overlapping) occurences
+int mentions(String word, String text)
+mentions("what", "whattfwahtfwhatawhathwatwhat") => 4
+
+
+decode an URL, using the following rules
+%20=>' '
+%3A=>':'
+%3D=>'?'
+%2F=>'/'
+String decodeUrl(String input)
+
+
+sum all the numbers in a String, ignoring characters
+int sumOfNumbers(String input)
+
+
+is anagram?
+boolean anagram(String A, String B)
+
+
+String A has or doesn't have a substring that is an anagram of String B?
+boolean hasAnagramOf(A,B)
+
+
+image histogram - representation of distribution of some data, image will have values between 0 and 255 and you have to return an array that is the histogram of that image (result[i] should contain the amount of times i is in the image.
+int[] histogram(short[][] image)
+
+
+rescale an image using nearest neighbour interpolation - original is the image and you have to rescale it using the algorithm mentioned - read it in wikipedia.
+int[][] rescale(int[][] original, int newWidth, int newHeight)

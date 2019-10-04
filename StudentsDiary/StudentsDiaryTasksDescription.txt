@@ -1,14 +1,30 @@
 Students' diary
-Implement a class student having a mark and then implement the following operations for a group of students:
+Implement a class student having a mark and then implement the following operations 
+for a group of students:
 
-get average mark
-get all passing students
-get all failing students
-split students by marks into two groups, a group with higher or equals marks than a given one and a group with the rest, ex. Map<Boolean, List>
-order students by marks ascending (and descending)
-clusterize the students by their marks and return all the students with the highest (and lowest) mark; imagine we have 3 students - Gosho, 6; Ivan, 6; Pesho, 4; the first function returns Gosho and Ivan, the second - Pesho.
-get marks distribution by age - a map consisting of a List of marks per a given age, e.g. result.get(20) would return the list of all the marks of the students that are 20 years old.
-get average mark by gender
-get marks by distribution
-get email header to all students
-split the students by their gender, and then partition them by their age, Map<Gender, Map<Integer, List>>, enum Gender, Student - name, age, gender, email, mark/grade (s)
+1) get average mark
+
+2) get all passing students
+
+3) get all failing students
+
+4) split students by marks into two groups, a group with higher or equals marks than a given one 
+and a group with the rest, ex. Map<Boolean, List>
+
+5) order students by marks ascending (and descending)
+
+6) clusterize the students by their marks and return all the students with the highest (and lowest) mark;
+ imagine we have 3 students - Gosho, 6; Ivan, 6; Pesho, 4; the first function returns Gosho and Ivan,
+ the second - Pesho.
+
+7) get marks distribution by age - a map consisting of a List of marks per a given age, 
+e.g. result.get(20) would return the list of all the marks of the students that are 20 years old.
+
+8) get average mark by gender
+
+9) get marks by distribution
+
+10) get email header to all students
+
+11) split the students by their gender, and then partition them by their age, 
+ Map<Gender, Map<Integer, List>>, enum Gender, Student - name, age, gender, email, mark/grade (s)

@@ -20,7 +20,8 @@ Examples:
 7) AB3(DC)2(F) - expand to ABDCDCDCFF
 
 
-8) Array with numbers, return array in which each of the numbers is replaced with the closest number larger than it and right from it (or -1)
+8) Array with numbers, return array in which each of the numbers is replaced with the closest number 
+ larger than it and right from it (or -1)
 
 
 Example:
@@ -30,5 +31,5 @@ Example:
 9)in numbers array - find 3 corresponding the triangle rule
 
 
-10) 2 files contain only numbers. Each of the files is too big to be read at once - it must be read line by line or number by number.
-In a new file store all the numbers sorted (Solve this task only if you know how to work with files)
+10) 2 files contain only numbers. Each of the files is too big to be read at once - it must be read line by line
+ or number by number. In a new file store all the numbers sorted.

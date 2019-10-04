@@ -1,27 +1,49 @@
 Implement an imaginary file system and imaginary terminal accessing it.
-Your program should use Java Scanner to read input from System.in and output to System.out and also when running the program it should support the following operations:
+Your program should use Java Scanner to read input from System.in and output to System.out
+and also when running the program it should support the following operations:
 
-cd < location > - by default you should be located at /home and this directory should be empty and in "/" folder there should be only one directory called home which is empty. The "cd" operation moves inside a directory < location > in the current folder. So the following sequence should work - start your console app, "cd .." - that goes back (cd . goes where you are currently, so does nothing) and you are in "/" and then "cd home" goes in "/home"
-
-mkdir < dir_name > - creates a directory inside your imaginary file system, in the location you are currently located, so if you start you app and type "mkdir my-new-dir" it creates "/home/my-new-dir" as a directory which is empty, leaves you in the directory you are and then with cd my-new-dir locates you inside that newly created directory
-
-create_file < file_name > - creates an empty file with name inside the folder you are currently in.
-
-cat < file_name > - displays the file contents
-
-write < file_name > < line_number > < line_content > - writes into a file with given name into its < line_number > the < line_content >. By default it appends into the line, if (-overwrite) is given then replaces the line content. Example: start program, mkdir test, cd test, create_file f.txt, write f.txt 2 hello, cat f.txt - displays the first line as empty line and on second line is written hello.
-
-ls - lists the files in the directory you are located currently
-
-ls --sorted desc - list the files in the current directory sorted descending by size
-
-wc < file_name > - word count command, counting and returning the number of words in a given file.
-
-wc < text > - words count in a given text
-
-wc -l < file_name > | < text > - counts and returns the number of lines in the given file|text
-
-ls | wc -l - implement a pipe function - "|" - pipe is a way to make the output of a command an input of the next command.
+1) cd < location > - by default you should be located at /home and this directory should be empty 
+and in "/" folder there should be only one directory called home which is empty.
+The "cd" operation moves inside a directory < location > in the current folder. 
+So the following sequence should work - start your console app, "cd .." - that goes back 
+(cd . goes where you are currently, so does nothing) and you are in "/" and then "cd home" goes in "/home"
 
 
-Each of you imaginary files should have as size the number of lines plus the number of its characters. You probably can infer by the task description that when you stop your program everything goes away - no file is stored nowhere. When you start your program once again then you have to create new files in new locations with new content, maybe.
+2) mkdir < dir_name > - creates a directory inside your imaginary file system, in the location you are currently located,
+so if you start you app and type "mkdir my-new-dir" it creates "/home/my-new-dir" as a directory which is empty,
+leaves you in the directory you are and then with cd my-new-dir locates you inside that newly created directory
+
+
+3) create_file < file_name > - creates an empty file with name inside the folder you are currently in.
+
+
+4) cat < file_name > - displays the file contents
+
+
+5) write < file_name > < line_number > < line_content > - writes into a file with given name into its < line_number > the < line_content >.
+By default it appends into the line, if (-overwrite) is given then replaces the line content. 
+Example: start program, mkdir test, cd test, create_file f.txt, write f.txt 2 hello, cat f.txt -
+	 displays the first line as empty line and on second line is written hello.
+
+
+6) ls - lists the files in the directory you are located currently
+
+
+7) ls --sorted desc - list the files in the current directory sorted descending by size
+
+
+8) wc < file_name > - word count command, counting and returning the number of words in a given file.
+
+
+9) wc < text > - words count in a given text
+
+
+10) wc -l < file_name > | < text > - counts and returns the number of lines in the given file|text
+
+
+11) ls | wc -l - implement a pipe function - "|" - pipe is a way to make the output of a command an input of the next command.
+
+
+Each of you imaginary files should have as size the number of lines plus the number of its characters. 
+You probably can infer by the task description that when you stop your program everything goes away - no file is stored nowhere.
+ When you start your program once again then you have to create new files in new locations with new content, maybe.

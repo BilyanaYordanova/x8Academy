@@ -6,7 +6,6 @@ import helper_methods.WordsCount;
 import mainpackage.Terminal;
 import mainpackage.TreeNode;
 
-//should be fulfilled
 public class WordCountCombined implements CommandExecution {
 
 	@Override

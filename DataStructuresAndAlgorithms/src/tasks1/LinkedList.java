@@ -173,24 +173,3 @@ public class LinkedList {
 		}
 		return false;
 	}
-
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//		LinkedList obj = new LinkedList();
-//		obj.insertAtStart(21);
-//		obj.insertAtStart(31);
-//		obj.insertAtStart(43);
-//		obj.insertAtEnd(83);
-//		obj.insertAtPosition(4, 33);
-//
-//		obj.removeAtStart();
-//		obj.removeAtEnd();
-//		obj.removeAtPosition(4);
-//
-//		System.out.println(obj.search(34));
-//		System.out.println(obj.getNumElements());
-//		
-//		obj.print();
-//	}
-
-}

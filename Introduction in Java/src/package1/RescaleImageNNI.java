@@ -21,17 +21,3 @@ public class RescaleImageNNI {
 		}
 		return temp;
 	}
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//		int[][] original = {{1,2,6}, 
-//							{3,4,5}};
-//		
-//		int[][] temp = rescale(original,6,6);
-//		for(int i = 0; i < temp.length; i++) {
-//			for(int j = 0; j < temp[0].length; j++) {
-//				System.out.print(temp[i][j]);
-//			}
-//			System.out.println();
-//		}
-//	}
-}

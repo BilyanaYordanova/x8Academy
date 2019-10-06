@@ -27,13 +27,3 @@ public class SortedArrayFindMinMissing {
 		// if all the numbers are in the array
 		return -1;
 	}
-
-//	public static void main(String[] args) {
-//		SortedArrayFindMinMissing obj = new SortedArrayFindMinMissing();
-//		//int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 10 };
-//		int[] array = new int[] { 1,1,1,2,2,3,4,5};
-//		
-//		System.out.println(obj.minMissingSortedArray(array));
-//	}
-
-}
